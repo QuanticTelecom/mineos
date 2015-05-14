@@ -1368,7 +1368,11 @@ ul.check li:last-child {
 	font-weight: bold;
 	color: #eee;
 }
-#header > .logo > a > img { vertical-align: top; }
+#header > .logo > a > img {
+	vertical-align: top; 
+	width: 205px;
+	height:40px;
+}
 #header > .logo > small {
 	vertical-align: top;
 	color: #eee;
@@ -1705,9 +1709,9 @@ ul.check li:last-child {
 	position: fixed;
 	overflow: hidden;
 	bottom: 0px;
-	top: 52px; 
+	top: 67px; 
 }
-.fixed-header #sidebar { top: 52px; }
+.fixed-header #sidebar { top: 67px; }
 .boxed-layout.fixed-sidebar #sidebar { left: 40px; }
 .boxed-layout #sidebar { left: 0px; }
 .boxed-layout #sidebar:before { left: 40px; }
